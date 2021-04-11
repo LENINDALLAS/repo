@@ -1,0 +1,42 @@
+
+body {
+  margin:0 ;
+  background-color: palegreen;
+  overflow-y: hidden;
+}
+
+  
+.back {
+  height: 80vh;
+  width: 80vh;
+  background:url("mountain.jpg") ;
+  background-size: cover;
+  border: 5px solid black;
+  margin: 5rem auto;
+}
+
+
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border-radius:50%;
+    position: absolute;
+    animation-name: sun;
+    animation-duration: 4s;
+    left: 50%;
+    animation-timing-function: ease-in;
+    background: url("sun.jpg");
+  }
+
+
+  @keyframes sun {
+    50%{
+      top: 280px;
+    }
+
+   100% {
+top: 80px;
+
+  }
+  }
